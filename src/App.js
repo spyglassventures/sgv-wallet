@@ -10,19 +10,19 @@ export default function Home() {
             Welcome to{" "}
             <span className="gradient-text-0">
               <a
-                href="https://thirdweb.com/"
+                href=""
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                thirdweb.
+                Dynamo DeFi.
               </a>
             </span>
           </h1>
 
           <p className="description">
             Get started by configuring your desired network in{" "}
-            <code className="code">src/index.js</code>, then modify the{" "}
-            <code className="code">src/App.js</code> file!
+            <code className="code">connect wallet</code>, <p> </p>then modify the{" "}
+            <code className="code">diversify your asset returns</code> file!
           </p>
 
           <div className="connect">
@@ -36,62 +36,11 @@ export default function Home() {
         </div>
 
         <div className="grid">
-          <a
-            href="https://portal.thirdweb.com/"
-            className="card"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              src="/images/portal-preview.png"
-              alt="Placeholder preview of starter"
-            />
-            <div className="card-text">
-              <h2 className="gradient-text-1">Portal ➜</h2>
-              <p>
-                Guides, references, and resources that will help you build with
-                thirdweb.
-              </p>
-            </div>
-          </a>
 
-          <a
-            href="https://thirdweb.com/dashboard"
-            className="card"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              src="/images/dashboard-preview.png"
-              alt="Placeholder preview of starter"
-            />
-            <div className="card-text">
-              <h2 className="gradient-text-2">Dashboard ➜</h2>
-              <p>
-                Deploy, configure, and manage your smart contracts from the
-                dashboard.
-              </p>
-            </div>
-          </a>
 
-          <a
-            href="https://thirdweb.com/templates"
-            className="card"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              src="/images/templates-preview.png"
-              alt="Placeholder preview of templates"
-            />
-            <div className="card-text">
-              <h2 className="gradient-text-3">Templates ➜</h2>
-              <p>
-                Discover and clone template projects showcasing thirdweb
-                features.
-              </p>
-            </div>
-          </a>
+
+
+
         </div>
       </div>
     </main>
