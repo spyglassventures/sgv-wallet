@@ -4,8 +4,25 @@ import "./styles/Home.css";
 export default function Home() {
   return (
     <main className="main">
+
+      <div className="above-header">
+        <div className="connect" style={{ float: "right", paddingRight: "40px" }}>
+          <ConnectWallet
+            dropdownPosition={{
+              side: "bottom",
+              align: "center",
+            }}
+          />
+        </div>
+        {/* Additional content for the above-header div */}
+      </div>
+
+
+
       <div className="container">
+
         <div className="header">
+
           <h1 className="title">
             Welcome to{" "}
             <span className="gradient-text-0">
@@ -25,14 +42,7 @@ export default function Home() {
             <code className="code">diversify your asset returns</code> file!
           </p>
 
-          <div className="connect">
-            <ConnectWallet
-              dropdownPosition={{
-                side: "bottom",
-                align: "center",
-              }}
-            />
-          </div>
+
         </div>
 
         <div className="grid">
